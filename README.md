@@ -11,3 +11,9 @@ upstream api_gateway_node {
 No hacer commit con esta dirección, para mantener el funcionamiento en AWS
 ## Para funcionamiento en Linux
 Dejar como esta 
+
+upstream api_gateway_node {
+      
+      server 172.17.0.1:3800;
+  }
+
