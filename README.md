@@ -4,7 +4,6 @@
 En el archivo app.cofig 
 
 upstream api_gateway_node {
-
       server host.docker.internal:3800;
   }
   
